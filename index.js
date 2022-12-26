@@ -22,7 +22,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// Define the main response for the REST API
+// Define the root entry point for the REST API
 app.get('/', (req, res) => {
   res.send('Welcome to the Jokes REST API. Visit /jokes to see the list.');
 });
