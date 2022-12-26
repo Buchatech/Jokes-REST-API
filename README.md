@@ -1,2 +1,2 @@
 # Jokes-REST-API
-a REST API of Jokes built with JavaScript, Node.js, and Express
+A Jokes REST API built with JavaScript, Node.js, and Express.
