@@ -71,3 +71,6 @@ app.delete('/jokes/:id', (req, res) => {
 
 // Start the REST API Server
 app.listen(port, () => console.log(`Jokes API listening on port ${port}!`));
+
+//Starts the nodeman tool from the dev script defined in the project’s package.json file
+// npm run dev
