@@ -47,7 +47,7 @@ app.post('/jokes', (req, res) => {
   const joke = req.body;
   
     // Output the joke to the console for debugging
-    console.log(joke);
+    console.log({ id: newId, joke: joke });
     jokes.push({ id: newId, joke: joke });
   
     // res.send('A new Joke has been added to the array.');
